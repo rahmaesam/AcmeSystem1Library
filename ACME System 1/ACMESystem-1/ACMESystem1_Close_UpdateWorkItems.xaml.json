@@ -1,0 +1,8 @@
+{
+  "DisplayName": "ACMESystem1_Close_UpdateWorkItems",
+  "Tooltip": "Description: close ypdate work items window\n\nPre_Condition:Update work items appear in pop up\n\nPost_Condition :work items appear in ACME1\n\nin_Argument:N/A\n\nout_Argument:N/A\n",
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": []
+}

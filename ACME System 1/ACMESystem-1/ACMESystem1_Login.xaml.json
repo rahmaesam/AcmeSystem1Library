@@ -1,0 +1,33 @@
+{
+  "DisplayName": "ACMESystem1_Login",
+  "Tooltip": "Description: ACMESystem1 Login\nPre_Condition:log in page exists\nPost_Condition DashBoard is Exists\n\nin_Argument:\nin_strPass:String\nin_strEmail:string\n\nout_Argument:N/A",
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "in_strEmail",
+      "DisplayName": "Email",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "",
+      "Widget": "TextComposer",
+      "IsRequired": true,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_strPass",
+      "DisplayName": "Passward",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "",
+      "Widget": null,
+      "IsRequired": true,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "DisplayName": "ACMESystem1_Launch",
+  "Tooltip": "Description: open  ACMESystem1 in google browser \nPre_Condition: N/A\nPost_Condition:hedear for acmesystem1 is appear\n\nin_Argument: \nin_StrURL:sting\n\nout_Argument:N/A",
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "in_StrURL",
+      "DisplayName": "in_StrURL",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "https://acme-test.uipath.com/login",
+      "Widget": "TextComposer",
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "DisplayName": "ACMESystem1_ReadWorkItems",
+  "Tooltip": "Description:read data tables from work items\nPre_Condition:workItems exists\nPost_Condition: data is found\n\nin_Argument:\nout_Argument:\r\nout_ExtractDataTable:DataTable",
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "out_ExtractDataTable",
+      "DisplayName": "out_ExtractDataTable",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    }
+  ]
+}

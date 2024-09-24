@@ -1,0 +1,33 @@
+{
+  "DisplayName": "ACMESystem1_updateStatus",
+  "Tooltip": "Description: update status and add comment\nPre_Condition: Update work items appear\nPost_Condition :Data not null\n\n\nin_Argument:\nin_status:string\nin_comment:string\n\nout_Argument:N/A\n",
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "in_status",
+      "DisplayName": "in_status",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "Completed",
+      "Widget": "TextComposer",
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_comment",
+      "DisplayName": "in_comment",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": "TextComposer",
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "DisplayName": "ACMESystem1_GetData",
+  "Tooltip": "Description: get text from page and split it from page work items\nPre_Condition: work items appear\n Post_Condition :data not null\n\nin_Argument:\nin_WID:string\n\nout_Argument:\nout_clientID: string\nout_AccountNumbe:string\nout_AccountAmount: string",
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "out_AccountNumber",
+      "DisplayName": "out_AccountNumber",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": "TextComposer",
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "out_AccountAmount",
+      "DisplayName": "out_AccountAmount",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": "TextComposer",
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "out_clientID",
+      "DisplayName": "out_clientID",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": "TextComposer",
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_WID",
+      "DisplayName": "in_WID",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": "TextComposer",
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    }
+  ]
+}

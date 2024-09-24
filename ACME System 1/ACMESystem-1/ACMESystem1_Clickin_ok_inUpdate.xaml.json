@@ -1,0 +1,8 @@
+{
+  "DisplayName": "ACMESystem1_Clickin_ok_inUpdate",
+  "Tooltip": "Description: click on ok that appear on pop up in update work items window\n\nPre_Condition:update work items apear\nPost_Condition :update work items appear\n\nin_Argument:N/A\n\nout_Argument:N/A\n",
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": []
+}
